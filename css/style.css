@@ -1,0 +1,584 @@
+/* font-family: 'Cabin', sans-serif;
+font-family: 'Galada', cursive;
+font-family: 'Palanquin', sans-serif; */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.all-body{
+    width: 100%;
+    margin: 0px auto;
+}
+.header{
+    display: inline-flex;
+    background: skyblue;
+    width: 100%;
+    height: 73px;
+    justify-content: space-evenly;
+}
+.logo-part{
+ 
+    display: inline-flex;
+    align-items: center;
+}
+.logo{}
+.logo img{
+    width: 71px;
+    border-radius: 32px;
+    height: 70px;
+}
+.logo-name{}
+.logo-name h2{
+    font-size: 25px;
+    font-family: 'Galada', cursive;
+}
+.navbar-part{
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+   
+}
+.navbar-part nav{}
+.navbar-part nav ul{}
+.navbar-part nav ul li{
+    display: inline-flex;
+}
+.navbar-part nav ul li a{
+    text-decoration: none;
+    padding: 6px;
+    color: black;
+}
+.navbar-part nav ul li a:hover{
+   color: blue;
+   transition: 1s;
+}
+
+
+.banner-part{
+    height: 426px;
+    width: 100%;
+     display: block;
+    background-image: url(../images/shutterstock_566591296.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+    
+.container{
+    
+    text-align: center;
+    width: 30%;
+    height: 300px;
+    margin: -1px auto;
+    padding-top: 89px;
+    
+}
+.container h1{
+    font-size: 41px;
+    color: white;
+    font-family: 'Palanquin', sans-serif;
+}
+.container p{
+    font-size: 18px;
+    color: rgba(245, 244, 247, 0.938);
+    font-family: 'Palanquin', sans-serif;
+}
+.container button{
+    width: 129px;
+    height: 39px;
+    font-size: 23px;
+    border: 2px solid wheat;
+    text-transform: uppercase;
+    border-radius: 19px;
+}
+.container button:hover{
+    background-color: transparent;
+    color: white;
+}
+/* ---------service part--------*/
+.service-part{}
+.all-heading{
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 29px 0px;
+    font-size: 33px;
+}
+.service-container{
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.service-card{
+    background-color: #decccc4a;
+    border: 3px solid rgba(206, 24, 24, 0.473);
+    width: 349px;
+    padding: 11px;
+}
+.service-card img{}
+.service-card h3{
+    font-family: 'Palanquin', sans-serif; 
+    font-size: 25px;
+}
+.service-card p{
+    font-size: 18px;
+}
+
+/* ---------member part--------*/
+.member-part{}
+.member-container{
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.uporejau{
+    display: contents;
+}
+
+.member-card{
+    background-color: #f5f5f54a;
+    border: 3px solid rgb(97 78 78 / 22%);
+    width: 309px;
+    height: 247px;
+    padding: 11px;
+}
+.member-card img{
+    width: 139px;
+    border-radius: 73px;
+    height: 130px;
+    border: 2px solid red;
+}
+.member-card h3{
+    font-family: 'Cabin', sans-serif;
+}
+.member-card p{
+ text-transform: capitalize;
+    font-family: 'Cabin', sans-serif;
+}
+.member-card button{
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    height: 24px;
+    width: 102px;
+    background: skyblue;
+    border: none;
+    color: brown;
+    border-radius: 15px;
+}
+
+/* ---------best Products--------*/
+.best-products{}
+.beat-product-container{
+    max-width: 96%;
+    display: inline-flex;
+     justify-content: center;
+
+}
+.best-product-image{
+    width: 45%;
+}
+.best-product-image img{
+    width: 100%;
+}
+.best-product-content{
+    width: 50%;
+    text-align: center;
+}
+.best-product-content h3{
+    padding-top: 82px;
+    font-size: 22px;
+    font-family: 'Cabin', sans-serif;
+}
+.best-product-content h1{
+    font-family: 'Cabin', sans-serif;
+    font-size: 64px;
+    color: red;
+}
+.best-product-content p{
+    font-size: 19px;
+    font-family: 'Cabin', sans-serif;
+}
+.best-product-content button{
+    text-transform: uppercase;
+    height: 31px;
+    width: 138px;
+    background: purple;
+    color: white;
+    font-size: 17px;
+}
+
+/* ---------contact-part--------*/
+
+.contact-part{}
+.contact-part-content{
+    width: 100%;
+    display: inline-flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.card-contect{
+    width: 30%;
+    height: 121px;
+    background: salmon;
+    padding: 33px;
+}
+.card-contect h4{
+    text-transform: capitalize;
+    font-size: larger;
+}
+.card-contect p{
+    font-family: 'Cabin', sans-serif;
+}
+.footer-content{
+    margin-top: 20px;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(68, 59, 59);
+}
+.footer-content p{}
+.{}
+.{}
+.{}
+.{}
+.{}
+
+
+@media only screen and (max-width: 425px) and (min-width: 320px) {
+
+    .header{
+       max-width: 100%;
+        display: block;
+        height: 253px;
+
+    }
+    .logo-name h2{
+        font-size: 30px;
+    }
+    .navbar-part{
+        max-width: 100%;
+        display: inline;
+        align-items: center;
+        margin-left: 0px;
+    }
+    .navbar-part nav{}
+    .navbar-part nav ul{}
+    .navbar-part nav ul li{
+        text-align: center;
+        display: inherit;
+        margin: 3px;
+        background: azure;
+        max-width: 100%;
+        font-size: 26px;
+        padding: 1px 64px;
+
+}
+
+.banner-part{
+    
+}
+    
+.container{
+   width: 40%;
+    }
+.container h1{
+    line-height: 22px;
+    font-size: 25px;
+}
+.container p{
+    font-size: 18px;
+    line-height: 18px;
+}
+.container button{
+    font-size: 15px;
+    height: 33px;
+    margin: 5px;
+}
+.container button:hover{
+    background-color: transparent;
+    color: white;
+}
+/* ---------service part--------*/
+
+.service-container{
+    
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+    
+}
+.service-card{
+    margin-top: 10px;
+    
+}
+
+/* ---------member part--------*/
+
+.member-container{
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+}
+.member-card{
+    margin-top: 10px;
+}
+
+/* ---------best Products--------*/
+.beat-product-container{
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.best-product-content h1{
+    font-size: 33px;
+}
+/* ---------contact-part--------*/
+
+.contact-part-content{
+    flex-direction: column;
+    align-items: center;
+}
+.card-contect{
+    height: 152px;
+    width: 90%;
+    margin-top: 10px;
+}
+
+
+}
+
+
+
+
+@media only screen and (max-width: 760px) and (min-width: 426px) {
+
+    .header{
+        max-width: 100%;
+        display: block;
+        height: 128px;
+
+    }
+    .logo-part {
+        width: 100%;
+        display: inline-flex;
+        justify-content: center;
+    }
+    .logo-name h2{
+        font-size: 30px;
+    }
+    .navbar-part{
+        max-width: 100%;
+        display: inline;
+        align-items: center;
+        margin-left: 0px;
+    }
+    .navbar-part nav{}
+    .navbar-part nav ul{
+        text-align: center;
+    }
+    .navbar-part nav ul li{
+         display: inline-flex;
+            }
+
+
+
+.banner-part{
+    height: 390px;
+}
+    
+.container{
+   width: 40%;
+    }
+.container h1{
+    line-height: 38px;
+    font-size: 39px;
+}
+.container p{
+    font-size: 18px;
+    line-height: 18px;
+}
+.container button{
+    font-size: 15px;
+    height: 33px;
+    margin: 5px;
+}
+.container button:hover{
+    background-color: transparent;
+    color: white;
+}
+/* ---------service part--------*/
+
+.service-container{
+    
+    flex-direction: row;
+    max-width: 100%;
+   
+    }
+.service-card{
+    width: 30%;
+   }
+
+/* ---------member part--------*/
+
+.member-container{
+    flex-direction: column;
+    max-width: 100%;
+   justify-content: space-evenly;
+}
+.member-card{
+    margin-top: 2px;
+    width: 45%;
+   
+}
+.uporejau{
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+/* ---------best Products--------*/
+.beat-product-container{
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.best-product-content h1{
+    font-size: 33px;
+}
+/* ---------contact-part--------*/
+
+.contact-part-content{
+    flex-direction: column;
+    align-items: center;
+}
+.card-contect{
+    height: 152px;
+    width: 90%;
+    margin-top: 10px;
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+
+    .header{
+        max-width: 100%;
+        display: block;
+        height: 128px;
+
+    }
+    .logo-part {
+        width: 100%;
+        display: inline-flex;
+        justify-content: center;
+    }
+    .logo-name h2{
+        font-size: 30px;
+    }
+    .navbar-part{
+        max-width: 100%;
+        display: inline;
+        align-items: center;
+        margin-left: 0px;
+    }
+    .navbar-part nav{}
+    .navbar-part nav ul{
+        text-align: center;
+    }
+    .navbar-part nav ul li{
+         display: inline-flex;
+            }
+
+
+
+.banner-part{
+    height: 390px;
+}
+    
+.container{
+   width: 40%;
+    }
+.container h1{
+    line-height: 38px;
+    font-size: 39px;
+}
+.container p{
+    font-size: 18px;
+    line-height: 18px;
+}
+.container button{
+    font-size: 15px;
+    height: 33px;
+    margin: 5px;
+}
+.container button:hover{
+    background-color: transparent;
+    color: white;
+}
+/* ---------service part--------*/
+
+.service-container{
+    
+    flex-direction: row;
+    max-width: 100%;
+   
+    }
+.service-card{
+    width: 30%;
+   }
+
+/* ---------member part--------*/
+
+.member-container{
+    flex-direction: column;
+    max-width: 100%;
+   justify-content: space-evenly;
+}
+.member-card{
+    margin-top: 2px;
+    width: 45%;
+   
+}
+.uporejau{
+    flex-direction: row;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+/* ---------best Products--------*/
+.beat-product-container{
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.best-product-content h1{
+    font-size: 33px;
+}
+/* ---------contact-part--------*/
+
+.contact-part-content{
+    flex-direction: column;
+    align-items: center;
+}
+.card-contect{
+    height: 152px;
+    width: 90%;
+    margin-top: 10px;
+}
+
+
+}
